@@ -1,6 +1,4 @@
-package multi_threading.a_thread_creation;
-
-import java.sql.SQLOutput;
+package multi_threading.a_thread_concepts;
 
 public class a_CreateThread {
     public static void main(String[] args) throws InterruptedException {

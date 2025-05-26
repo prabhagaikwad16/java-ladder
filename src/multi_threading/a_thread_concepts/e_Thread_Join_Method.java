@@ -1,4 +1,4 @@
-package multi_threading.a_thread_creation;
+package multi_threading.a_thread_concepts;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

@@ -17,8 +17,11 @@ public class a_CreateThread {
             }
         });
         System.out.println("Before starting a new thread:"+Thread.currentThread().getName());
+        System.out.println("Before starting = "+thread.getState());
         thread.start(); // Start the new thread
+        System.out.println("After starting = "+thread.getState());
         Thread.sleep(1000L);
+
         Thread.currentThread().setUncaughtExceptionHandler(
                 (t, e) -> System.out.println("Uncaught exception in thread: " + t.getName() + ", Exception: " + e.getMessage())
         );
